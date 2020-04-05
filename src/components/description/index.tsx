@@ -1,7 +1,7 @@
 import React from 'react';
 import './Description.css';
-import Agile from '../icon/Agile';
-import Rocket from '../icon/Rocket';
+import Agile from '../icon/agile';
+import Rocket from '../icon/rocket';
 
 const iconProps = {
   width: 90,

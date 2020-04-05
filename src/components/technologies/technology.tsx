@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import Eslint from '../../images/eslint.png';
 import Firebase from '../../images/firebase.png';
 import Flow from '../../images/flow.png';

@@ -55,6 +55,10 @@ const SEO = () => {
       titleTemplate={title}
       meta={[
         {
+          name: 'author',
+          content: author,
+        },
+        {
           name: `description`,
           content: description,
         },

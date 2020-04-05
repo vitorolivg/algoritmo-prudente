@@ -1,9 +1,9 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import './Footer.css';
-import Envelope from '../Icon/Envelope';
-import Github from '../Icon/Github';
-import Linkedin from '../Icon/Linkedin';
+import Envelope from '../icon/Envelope';
+import Github from '../icon/Github';
+import Linkedin from '../icon/Linkedin';
 
 const commonDimensions = {
   width: 27,

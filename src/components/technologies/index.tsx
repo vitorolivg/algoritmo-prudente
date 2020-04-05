@@ -1,6 +1,6 @@
 import React from 'react';
-import './Technologies.css';
-import Card from '../Card';
+import './technologies.css';
+import Card from '../card';
 import Technology, { Techs } from './technology';
 
 const Technologies = () => (

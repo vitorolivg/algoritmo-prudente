@@ -5,21 +5,26 @@ import Footer from '../footer';
 import './layout.css';
 
 const Layout: React.FC = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  const {
+    site: { siteMetadata },
+  } = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
           title
+          currentYear
         }
       }
     }
   `);
 
+  const { title, currentYear } = siteMetadata;
+
   return (
     <>
-      <Header title={data.site.siteMetadata.title} />
+      <Header title={title} />
       <main className="app">{children}</main>
-      <Footer />
+      <Footer title={title} currentYear={currentYear} />
     </>
   );
 };

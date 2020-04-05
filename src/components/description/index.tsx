@@ -1,5 +1,5 @@
 import React from 'react';
-import './Description.css';
+import './description.css';
 import Agile from '../icon/agile';
 import Rocket from '../icon/rocket';
 

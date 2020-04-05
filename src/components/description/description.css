@@ -1,0 +1,22 @@
+.description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.description div {
+  max-width: 500px;
+  margin: 32px;
+}
+
+.description p {
+  font-size: calc(10px + 1.3vmin);
+  font-family: Raleway;
+  font-stretch: 100%;
+  font-weight: 400;
+  color: #54677a;
+  margin: 0;
+  padding: 0;
+}

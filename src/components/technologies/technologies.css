@@ -1,0 +1,29 @@
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.technologies  li {
+    margin: 10px;
+}
+
+.technologies-article {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    color: #54677A;
+  }
+  .technologies-article h2 {
+      color: #394A5B;
+  }

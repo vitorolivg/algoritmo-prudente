@@ -1,0 +1,18 @@
+.footer {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 13px;
+    color: #54677A;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.footer-icons > a {
+    margin-left: 4px;
+    margin-right: 4px;
+}

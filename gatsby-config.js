@@ -1,10 +1,13 @@
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: `Algoritmo Prudente`,
+    title: `Algoritmo Prudente | IT Consulting`,
     description: `Your partnership for product creation. We use technology to impact and transform the users experience.`,
     author: `@vitorolivg`,
     currentYear: 2020,
+    siteTitle: `Algoritmo Prudente`,
+    keywords: `algoritmo, prudente, porto it, porto consulting, algoritmo prudente, frontend engineering, agile consultant, vitor gomes`,
+    url: 'https://www.algoritmoprudente.com/',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

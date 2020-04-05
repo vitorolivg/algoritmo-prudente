@@ -11,20 +11,20 @@ const Layout: React.FC = ({ children }) => {
     query SiteTitleQuery {
       site {
         siteMetadata {
-          title
+          siteTitle
           currentYear
         }
       }
     }
   `);
 
-  const { title, currentYear } = siteMetadata;
+  const { siteTitle, currentYear } = siteMetadata;
 
   return (
     <>
-      <Header title={title} />
+      <Header title={siteTitle} />
       <main className="app">{children}</main>
-      <Footer title={title} currentYear={currentYear} />
+      <Footer title={siteTitle} currentYear={currentYear} />
     </>
   );
 };

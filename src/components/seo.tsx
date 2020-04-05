@@ -12,13 +12,16 @@ const SEO = () => {
             title
             description
             author
+            siteTitle
+            keywords
+            url
           }
         }
       }
     `
   );
 
-  const { title, description, author } = site?.siteMetadata;
+  const { title, description, siteTitle, author, keywords, url } = site?.siteMetadata;
 
   const organizationSEO = {
     '@context': 'http://schema.org',
@@ -43,7 +46,7 @@ const SEO = () => {
         jobTitle: 'Director',
       },
     ],
-    name: title,
+    name: siteTitle,
   };
 
   return (
@@ -57,6 +60,10 @@ const SEO = () => {
         {
           name: 'author',
           content: author,
+        },
+        {
+          name: 'keywords',
+          content: keywords,
         },
         {
           name: `description`,
@@ -92,6 +99,7 @@ const SEO = () => {
         },
       ]}
     >
+      <link rel="canonical" href={url} />
       <script type="application/ld+json">{JSON.stringify(organizationSEO)}</script>
       <link rel="icon" href={FavIcon} />
       <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />

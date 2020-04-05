@@ -1,0 +1,51 @@
+{
+  "name": "algoritmo-prudente",
+  "private": false,
+  "version": "1.0.0",
+  "author": "Vitor Gomes <vitor.gomes@algoritmoprudente.com>",
+  "dependencies": {
+    "gatsby": "^2.19.7",
+    "gatsby-image": "^2.2.39",
+    "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-typescript": "^2.3.1",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-sharp": "^2.3.13",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^5.0.15",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "keywords": [
+    "gatsby",
+    "typescript"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "build:ts": "tsc -p .",
+    "build:prod": "yarn build:ts && yarn build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "browserslist": [
+    "ie 11",
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

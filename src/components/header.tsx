@@ -9,7 +9,7 @@ const Header: React.SFC<HeaderProps> = ({ title }) => (
   <header className="app-header">
     <h1>{title}</h1>
     <p>
-      A one man <strong>IT</strong> company!
+      A remote <strong>IT</strong> company!
     </p>
   </header>
 );
